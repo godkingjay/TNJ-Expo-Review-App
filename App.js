@@ -4,6 +4,7 @@ import { globalStyles } from './assets/styles/global';
 import Home from './screens/home';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import Navigator from './routes/homeStack';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -40,11 +41,8 @@ export default function App() {
   }
 
   return (
-    <View
-      styles={globalStyles.screen}
+    <Navigator
       onLayout={onLayoutRootView}
-    >
-      <Home />
-    </View>
+    />
   );
 }
