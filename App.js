@@ -41,8 +41,11 @@ export default function App() {
   }
 
   return (
-    <Navigator
+    <View
+      style={globalStyles.screen}
       onLayout={onLayoutRootView}
-    />
+    >
+      <Navigator />
+    </View>
   );
 }

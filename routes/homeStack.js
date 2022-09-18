@@ -7,7 +7,7 @@ const screens = {
   Home: {
     screen: Home,
   },
-  ReviewDetails: {
+  'Review Details': {
     screen: ReviewDetails,
   },
 };
