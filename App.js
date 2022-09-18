@@ -1,6 +1,6 @@
 import React , { useCallback, useEffect, useState } from 'react';
 import { View } from 'react-native';
-import styles from './assets/styles/global';
+import { globalStyles } from './assets/styles/global';
 import Home from './screens/home';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
@@ -41,7 +41,7 @@ export default function App() {
 
   return (
     <View
-      styles={styles.screen}
+      styles={globalStyles.screen}
       onLayout={onLayoutRootView}
     >
       <Home />

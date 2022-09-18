@@ -1,18 +1,22 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+export const globalStyles = StyleSheet.create({
   screen: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
   container: {
-    flex: 1,
-    backgroundColor: "white",
-    alignItems: "center",
-    justifyContent: "center",
-  }
+    padding: 20,
+  },
+  titleText: {
+    fontFamily: 'nunito-bold',
+    fontSize: 18,
+    color: '#333',
+  },
+  paragraph: {
+    marginVertical: 8,
+    lineHeight: 20,
+  },
 });
-
-export default styles;
