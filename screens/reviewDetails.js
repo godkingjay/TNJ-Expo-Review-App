@@ -4,8 +4,6 @@ import { globalStyles } from "../assets/styles/global";
 
 export default function ReviewDetails({ navigation }){
 
-  console.log(navigation.getParam("title"));
-
   return (
     <View style={globalStyles.container}>
       <Text>{navigation.getParam('title')}</Text>
