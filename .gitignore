@@ -9,6 +9,9 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+.expo-shared/
+babel.config.js
+package-lock.js
 
 # macOS
 .DS_Store
